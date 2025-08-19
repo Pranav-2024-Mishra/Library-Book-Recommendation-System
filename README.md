@@ -92,6 +92,6 @@ This will automatically open a new tab in your web browser with the application 
 
 ## Demo
 
-      https://library-book-recommendation-system-nxdjgylds8qnx6fmy854ud.streamlit.app/
+       https://library-book-recommendation-system-nxdjgylds8qnx6fmy854ud.streamlit.app/
 
 After opening this link you have to upload the data whicb is given in this repo. 
