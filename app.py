@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # --- 1. Page Configuration and Title ---
+
 st.set_page_config(
     page_title="Library Book Recommender",
     page_icon="📚",
@@ -16,6 +17,7 @@ st.title("📚 Library Book Recommendation System")
 st.markdown("---")
 
 # --- 2. File Uploader and Data Processing ---
+
 st.header("Upload Your Dataset")
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv", help="Please upload a CSV file with UserID, BookTitle, Genre, Author, and PublicationYear columns.")
 
@@ -43,6 +45,7 @@ def load_and_process_data(file_object):
         st.success("Dataset loaded successfully!")
 
         # Data Cleaning and Transformation
+        
         df.columns = [col.strip() for col in df.columns]
         df['Author'].fillna('Unknown', inplace=True)
         df['Genre'] = df['Genre'].str.lower().fillna('unknown')
@@ -115,6 +118,7 @@ if uploaded_file:
             get_rec_button = st.button("Get Recommendations", use_container_width=True)
 
         # --- Recommendation Model Logic ---
+        
         def get_recommendations(user_id, df, cosine_sim, book_indices, num_recommendations=5):
             """
             Generates book recommendations for a given user based on content-based filtering.
@@ -207,4 +211,5 @@ if uploaded_file:
 
 else:
     st.info("Please upload a CSV file to get started.")
+
 
