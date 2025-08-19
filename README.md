@@ -64,3 +64,18 @@ The contents of requirements.txt should be:
        scikit-learn
        matplotlib
 
+**How to Run the Application**
+
+Once you have set up the project and installed the dependencies, you can launch the app from your terminal.
+
+1. Open your terminal or command prompt.
+
+2. Navigate to your project directory.
+
+3. Ensure your virtual environment is activated.
+
+Run the following command:
+
+      streamlit run app.py
+
+This will automatically open a new tab in your web browser with the application running on http://localhost:8501
