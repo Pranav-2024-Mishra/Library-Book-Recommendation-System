@@ -64,7 +64,7 @@ The contents of requirements.txt should be:
        scikit-learn
        matplotlib
 
-**How to Run the Application**
+## How to Run the Application
 
 Once you have set up the project and installed the dependencies, you can launch the app from your terminal.
 
@@ -80,7 +80,7 @@ Run the following command:
 
 This will automatically open a new tab in your web browser with the application running on http://localhost:8501
 
-**How to Use the App**
+## How to Use the App
 
 * Upload Data: On the web page, click the "Browse files" button and select the library_books_dataset_10000_messy.csv file. The app will automatically process and clean the data.
 
