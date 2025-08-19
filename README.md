@@ -50,3 +50,17 @@ It is highly recommended to use a virtual environment to manage dependencies.
 
       python3 -m venv .venv
       source .venv/bin/activate
+
+**3. Requirements**
+
+The project requires the following Python libraries. You can install them by running:
+
+     pip install -r requirements.txt
+
+The contents of requirements.txt should be:
+
+       streamlit
+       pandas
+       scikit-learn
+       matplotlib
+
