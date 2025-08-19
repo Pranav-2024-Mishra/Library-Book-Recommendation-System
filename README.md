@@ -33,3 +33,20 @@ Your project folder should have the following structure:
 * library_books_dataset_10000_messy.csv: The sample dataset for the recommendation system.
 
 * requirements.txt: A list of all Python libraries required to run the project.
+
+
+**2. Virtual Environment**
+
+It is highly recommended to use a virtual environment to manage dependencies.
+
+**Create and activate the environment:**
+
+* Windows:
+
+    python -m venv .venv
+   .venv\Scripts\activate
+
+* macOS/Linux:
+
+   python3 -m venv .venv
+   source .venv/bin/activate
