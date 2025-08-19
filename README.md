@@ -79,3 +79,13 @@ Run the following command:
       streamlit run app.py
 
 This will automatically open a new tab in your web browser with the application running on http://localhost:8501
+
+**How to Use the App**
+
+* Upload Data: On the web page, click the "Browse files" button and select the library_books_dataset_10000_messy.csv file. The app will automatically process and clean the data.
+
+* View Visualization: A bar chart of the top 5 most borrowed books will appear in the main content area.
+
+* Select User and Filters: Use the sidebar to choose a UserID from the dropdown and apply optional filters for genre and publication year.
+
+* Get Recommendations: Click the "Get Recommendations" button to see a personalized list of book suggestions based on your selections.
