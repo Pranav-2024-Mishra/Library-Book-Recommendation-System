@@ -43,10 +43,10 @@ It is highly recommended to use a virtual environment to manage dependencies.
 
 * Windows:
 
-    python -m venv .venv
-   .venv\Scripts\activate
+       python -m venv .venv
+      .venv\Scripts\activate
 
 * macOS/Linux:
 
-   python3 -m venv .venv
-   source .venv/bin/activate
+      python3 -m venv .venv
+      source .venv/bin/activate
