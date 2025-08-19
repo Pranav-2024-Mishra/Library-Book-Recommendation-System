@@ -89,3 +89,9 @@ This will automatically open a new tab in your web browser with the application 
 * Select User and Filters: Use the sidebar to choose a UserID from the dropdown and apply optional filters for genre and publication year.
 
 * Get Recommendations: Click the "Get Recommendations" button to see a personalized list of book suggestions based on your selections.
+
+## Demo
+
+      https://library-book-recommendation-system-nxdjgylds8qnx6fmy854ud.streamlit.app/
+
+After opening this link you have to upload the data whicb is given in this repo. 
