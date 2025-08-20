@@ -94,4 +94,4 @@ This will automatically open a new tab in your web browser with the application 
 
        https://library-book-recommendation-system-nxdjgylds8qnx6fmy854ud.streamlit.app/
 
-After opening this link you have to upload the data whicb is given in this repo. 
+After opening this link you have to upload the data which is given in this repo. 
